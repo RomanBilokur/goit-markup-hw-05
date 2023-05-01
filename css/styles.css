@@ -705,9 +705,17 @@ mix-blend-mode: normal;
 }
 
 .modal-close-btn {
-  border-radius: 50%;
-background: #e7e9fc;
-background-color: transparent;
-border: 1px solid rgba(0, 0, 0, 0.1);
-padding: 0;
+  position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: border-color var(--transition);
 }
