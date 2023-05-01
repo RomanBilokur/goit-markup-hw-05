@@ -106,6 +106,16 @@ body {
   color: var(--btn-color);
 }
 
+.menu-link::after {
+  display: block;
+  width: 48px;
+  height: 4px;
+  background-color: var(--btn-color);
+  border-radius: 2px;
+  content: "";
+  margin: 0 auto;
+}
+
 .addressa {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -642,8 +652,6 @@ body {
   height: 100%;
   transform: translate(0, 100%);
   transition: transform 500ms linear;
-  background: #4D5AE5 10%;
-
   background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
 background-blend-mode: soft-light, normal;
 mix-blend-mode: normal;
@@ -671,4 +679,26 @@ mix-blend-mode: normal;
  {
   transform: translate(0, 0);
 
+}
+
+/* modal wind */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 408px;
+  height: 584px;
+  background-color: #FCFCFC;
 }
