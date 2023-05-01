@@ -724,3 +724,13 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: border-color var(--transition);
 }
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #404BBF;
+}
+
+.modal-close-btn-icon:hover,
+.modal-close-btn-icon:focus {
+    color: #FFFFFF;
+}
