@@ -591,7 +591,7 @@ body {
   color: var(--logo-btm-color);
   background-color: var(--fond-btn-color);
   cursor: pointer;
-  transition: color var(--transition), background var(--transition), box-shadow var(--transition);
+  transition: border var(--transition), color var(--transition), background var(--transition), box-shadow var(--transition);
 }
 
 /* Portfolio-container */
